@@ -30,6 +30,6 @@ jobs:
         docker push us-central1-docker.pkg.dev/$GOOGLE_PROJECT/github-actions-demo/tests:latest
         docker build -t us-central1-docker.pkg.dev/$GOOGLE_PROJECT/github-actions-demo/proyects:latest proyects/
         docker push us-central1-docker.pkg.dev/$GOOGLE_PROJECT/github-actions-demo/proyects:latest
-        docker build -t us-central1-docker.pkg.dev/$GOOGLE_PROJECT/github-actions-demo/auth:latest auth/
+        docker build -t us-central1-docker.pkg.dev/$GOOGLE_PROJECT/github-actions-demo/auth:latest authentication/
         docker push us-central1-docker.pkg.dev/$GOOGLE_PROJECT/github-actions-demo/auth:latest
       working-directory: backend/
